@@ -1,0 +1,6 @@
+image,label,field,issue,mine,peer,verdict,guideline_rule,action
+S02_ir.png,child_seat,occupied,khác giá trị (IoU=0.96),yes,no,peer,"child_seat.occupied (giá trị cho phép: unknown, no)",Cập nhật giá trị occupied thành no cho đúng schema/guideline
+S02_rgb.png,child_seat,occupied,khác giá trị (IoU=0.95),yes,no,peer,"child_seat.occupied (giá trị cho phép: unknown, no)",Cập nhật giá trị occupied thành no cho đúng schema/guideline
+S02_rgb.png,hand,on_wheel,khác giá trị (IoU=0.94),unknown,no,peer,hand.on_wheel (tay hành khách hàng ghế sau không chạm vô lăng -> no),Sửa on_wheel từ unknown sang no
+S04_ir.png,person,seatbelt,khác giá trị (IoU=0.93),unknown,not_worn,mine,person.seatbelt trên cảnh SVIRO không rõ dây đai nên giữ unknown hoặc đối chiếu guideline,Giữ nguyên unknown sau khi đối chiếu với Nguyễn Xuân Lam (04051)
+D04.png,face,eye_right,khác giá trị (IoU=0.95),unknown,closed,mine,eye_right=unknown đồng bộ với các điểm right_eye_* bị che/outside,Giữ eye_right=unknown khớp trạng thái các điểm landmark bên phải
